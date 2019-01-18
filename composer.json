@@ -1,0 +1,32 @@
+{
+    "name": "immortal/pheonix",
+    "description": "Php templating engine",
+    "type": "library",
+    "keywords": ["templating", "parser", "lexer"],
+    "homepage": "https://github.com/theahmadzai/pheonix",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Javed Ahmadzai",
+            "email": "theahmadzai@hotmail.com",
+            "homepage": "http://theahmadzai.github.io"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/theahmadzai/pheonix/issues"
+    },
+    "minimum-stability": "dev",
+    "require": {
+         "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pheonix\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
+        }
+    }
+}
